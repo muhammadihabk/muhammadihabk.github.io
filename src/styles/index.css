@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-100: #fbfbfb;
+  --text-100: #797979;
+
+  --border-color: #c9c9c9;
+
+  --padding: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  background-color: var(--bg-200);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
