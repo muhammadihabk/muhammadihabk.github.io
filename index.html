@@ -4,20 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/common.css" />
     <link rel="stylesheet" href="./src/styles/main-nav.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <script src="./src/scripts/main-nav.js" type="module" defer></script>
+
     <title>Muhammad Ihab</title>
   </head>
   <body>
     <nav class="main-nav">
-      <div class="main-nav_name">
-        <p>Muhammad Ihab</p>
-      </div>
+      <p class="main-nav_name">Muhammad Ihab</p>
+      <button class="main-nav_btn">Menu</button>
+
       <ul class="main-nav_agenda">
         <li><a href="#tamra">Tamra</a></li>
         <li><a href="#virtual-life-2">VirtualLife 2</a></li>
@@ -29,12 +34,12 @@
         <div class="contact-list_icons">
           <li>
             <a href="https://github.com/muhammadihabk" target="_blank"
-              ><img src="./public/logos/GitHub_Logo.png" alt=""
+              ><img class="icon" src="./public/logos/GitHub.svg" alt=""
             /></a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/muhammadihabk/" target="_blank"
-              ><img src="./public/logos/LI-Logo.png" alt=""
+              ><img class="icon" src="./public/logos/LinkedIn.png" alt=""
             /></a>
           </li>
         </div>
