@@ -1,3 +1,7 @@
 .icon {
   inline-size: 25px;
 }
+
+.page-wrapper {
+  display: flex;
+}
