@@ -16,6 +16,7 @@
     'contact-list';
   align-items: center;
   grid-auto-rows: min-content;
+  font-weight: 500;
   background-color: var(--bg-300);
 }
 
@@ -44,7 +45,6 @@
   margin-inline-start: 3px;
   vertical-align: super;
   font-size: 0.7em;
-  font-weight: 500;
   color: var(--text-400);
   opacity: 0.7;
 }
@@ -57,7 +57,6 @@
   gap: var(--gap);
   padding-block: var(--gap);
   color: var(--text-400);
-  font-weight: 500;
 }
 .contact-list_icons {
   display: flex;

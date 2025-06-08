@@ -1,0 +1,6 @@
+footer {
+  margin-block-start: 250px;
+  padding-block: 2rem;
+  text-align: center;
+  border-block-start: var(--border);
+}
