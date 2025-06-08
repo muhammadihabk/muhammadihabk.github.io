@@ -5,3 +5,9 @@
 .page-wrapper {
   display: flex;
 }
+
+.inline-link {
+  color: var(--blue-600);
+  font-weight: 500;
+  background-color: rgba(64, 224, 208, 0.5);
+}

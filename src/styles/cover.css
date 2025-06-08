@@ -1,6 +1,6 @@
 .cover {
-  inline-size: 100%;
-  block-size: 25vh;
+  inline-size: auto;
+  block-size: 70vh;
 }
 
 .cover img {
