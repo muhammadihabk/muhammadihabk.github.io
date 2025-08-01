@@ -10,7 +10,6 @@
   align-items: center;
   padding-block: var(--section-padding-block);
   font-size: 4rem;
-  border-bottom: var(--border);
 }
 
 .project {
@@ -56,7 +55,7 @@
   display: block;
   border: var(--border);
   border-radius: var(--border-radius-500);
-  transition: transform 0.4s linear;
+  transition: transform 0.1s ease-in-out;
 }
 .projects_screenshot:hover {
   transform: scale(1.01);

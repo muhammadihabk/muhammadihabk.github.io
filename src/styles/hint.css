@@ -1,0 +1,30 @@
+.hint-wrapper {
+  text-align: center;
+}
+
+.hint-wrapper > svg {
+  margin-block-start: calc(0.5 * var(--section-padding-block));
+  animation: move 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-0.25rem);
+  }
+}
+
+.hint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: var(--gap);
+  margin-block-start: var(--section-padding-block);
+  color: #acacac;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/styles/index.css" />
     <link rel="stylesheet" href="./src/styles/common.css" />
+    <link rel="stylesheet" href="./src/styles/hint.css" />
     <link rel="stylesheet" href="./src/styles/main-nav.css" />
     <link rel="stylesheet" href="./src/styles/cover.css" />
     <link rel="stylesheet" href="./src/styles/main.css" />
@@ -30,22 +31,22 @@
 
         <ul class="main-nav_agenda">
           <li>
-            <a href="#tamra">Tamra<sup>01</sup></a>
+            <a href="#template-two">Template Two<sup>01</sup></a>
           </li>
           <li>
-            <a href="#template-two">Template Two<sup>02</sup></a>
+            <a href="#virtual-life-2">Virtual Life 2.0<sup>02</sup></a>
           </li>
           <li>
-            <a href="#virtual-life-2">Virtual Life 2.0<sup>03</sup></a>
+            <a href="#wuzzuf-dashboard">Wuzzuf Dashboard<sup>03</sup></a>
           </li>
           <li>
-            <a href="#wuzzuf-dashboard">Wuzzuf Dashboard<sup>04</sup></a>
+            <a href="#mega-logs">Mega Logs<sup>04</sup></a>
           </li>
           <li>
-            <a href="#mega-logs">Mega Logs<sup>05</sup></a>
+            <a href="#template-one">Template One<sup>05</sup></a>
           </li>
           <li>
-            <a href="#template-one">Template One<sup>06</sup></a>
+            <a href="#tamra">Tamra<sup>06</sup></a>
           </li>
         </ul>
 
@@ -73,35 +74,41 @@
           <img src="./public/cover.jpg" alt="Sheraton street in sunset." />
         </div>
 
+        <section class="hint-wrapper">
+          <div class="hint">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#636363"
+            >
+              <path
+                d="M120-120v-520h200v-200h520v720H120Zm520-80h120v-560H400v120h240v440Zm-240 0h160v-360H400v360Zm-200 0h120v-360H200v360Zm440-440v80-80Zm-320 80Zm240 0Zm80-80Z"
+              />
+            </svg>
+            <p>Try resizing the window.</p>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#636363"
+          >
+            <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" />
+          </svg>
+        </section>
+
         <section class="projects">
           <div class="projects_main-header">
             <h1>Projects</h1>
           </div>
 
-          <div class="project" id="tamra">
-            <div class="projects_header">
-              <h2><span class="projects_header-prefix">01</span>Tamra</h2>
-              <div class="projects_description">
-                <p>A MERN Full Stack app for a new take on habits apps.</p>
-              </div>
-            </div>
-            <a
-              class="image-wrapper"
-              href="https://github.com/muhammadihabk/tamra"
-              target="_blank"
-            >
-              <img
-                class="projects_screenshot"
-                src="./public/Tamra.png"
-                alt="App Screenshot showing user habits logs."
-              />
-            </a>
-          </div>
-
           <div class="project" id="template-two">
             <div class="projects_header">
               <h2>
-                <span class="projects_header-prefix">02</span>Template Two
+                <span class="projects_header-prefix">01</span>Template Two
               </h2>
               <div class="projects_description">
                 <p>A responsive dashboard styled with CSS.</p>
@@ -123,7 +130,7 @@
           <div class="project" id="virtual-life-2">
             <div class="projects_header">
               <h2>
-                <span class="projects_header-prefix">03</span>Virtual Life 2.0
+                <span class="projects_header-prefix">02</span>Virtual Life 2.0
               </h2>
               <div class="projects_description">
                 <p>
@@ -148,7 +155,7 @@
           <div class="project" id="wuzzuf-dashboard">
             <div class="projects_header">
               <h2>
-                <span class="projects_header-prefix">04</span>Wuzzuf Dashboard
+                <span class="projects_header-prefix">03</span>Wuzzuf Dashboard
               </h2>
               <div class="projects_description">
                 <p>
@@ -177,7 +184,7 @@
 
           <div class="project" id="mega-logs">
             <div class="projects_header">
-              <h2><span class="projects_header-prefix">05</span>Mega Logs</h2>
+              <h2><span class="projects_header-prefix">04</span>Mega Logs</h2>
               <div class="projects_description">
                 <p>
                   Goal of the project is to be able to store large amounts of
@@ -202,7 +209,7 @@
           <div class="project" id="template-one">
             <div class="projects_header">
               <h2>
-                <span class="projects_header-prefix">06</span>Template One
+                <span class="projects_header-prefix">05</span>Template One
               </h2>
               <div class="projects_description">
                 <p>A responsive landing page built with HTML and CSS.</p>
@@ -217,6 +224,26 @@
                 class="projects_screenshot"
                 src="./public/Template-One.png"
                 alt="App Screenshot."
+              />
+            </a>
+          </div>
+
+          <div class="project" id="tamra">
+            <div class="projects_header">
+              <h2><span class="projects_header-prefix">06</span>Tamra</h2>
+              <div class="projects_description">
+                <p>A MERN Full Stack app for a new take on habits apps.</p>
+              </div>
+            </div>
+            <a
+              class="image-wrapper"
+              href="https://github.com/muhammadihabk/tamra"
+              target="_blank"
+            >
+              <img
+                class="projects_screenshot"
+                src="./public/Tamra.png"
+                alt="App Screenshot showing user habits logs."
               />
             </a>
           </div>
